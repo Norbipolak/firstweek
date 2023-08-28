@@ -14,3 +14,17 @@ let myBestFriends = [
 ]
 
 console.log(myBestFriends) // got an error message for age 
+
+let myPersonalData = {
+    name: "Norbert"
+    age: 31
+}
+
+console.log(myPersonalData.name)
+
+let myPersonalData = {
+    name: "David"
+    age: 30
+}
+myPersonalData.age = 29
+let myNewAge = myPersonalData.age;
